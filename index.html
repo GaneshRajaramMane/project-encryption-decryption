@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    
+        <h1 class="h1"> Text<span><img src="/img/arrow.png"></span>Emojis</h1>
+
+     <div class="enc-dec">
+        <h4 id="encbtn"><span><img src="/img/lock.png">Encrypt Text</span></h4>
+        <h4 id="decbtn"><span><img src="/img/unlock.png">Decrypt Text</span></h4>
+     </div>
+
+     <div class="encryption">
+        <h3>1.Type a Message</h3>
+        <textarea placeholder="write here" id="textarea"></textarea>
+        <h3>2.Set a Password</h3>
+        <input type="password" id="password" placeholder="eg @123"></input>
+        <h3>3.Encrypt Message</h3>
+        <button id="encbtn1"><span><img src="/img/lock.png">Encrypt Text</button>
+     </div>
+
+     <div class="decryption">
+        <h3>1.Paste Encrypt Message</h3>
+        <textarea placeholder="write here" id="emojiinput"></textarea>
+        <h3>2.Type a Password</h3>
+        <input type="password" id="password1" placeholder="eg Emojis">
+        <h3>3.Decrypt Emojis</h3>
+        <button id="decbtn1"><span><img src="/img/unlock.png">Decrypt Text</button>
+     </div>
+
+    <div id="result"></div>
+    </div>
+
+    
+    <Script src="java.js" ></Script>
+</body>
+</html>
