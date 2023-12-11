@@ -11,6 +11,7 @@ function encryption() {
     document.querySelector("#encbtn1").addEventListener("click", function () {
 
 
+
         var pass = document.getElementById("password").value;
 
         var input = document.getElementById("textarea").value;
